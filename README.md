@@ -44,12 +44,6 @@ See [DISCLAIMER.md](DISCLAIMER.md) for the project safety and legal warning.
 
 In the Monitor tab, choose the `dsame.py` script, enter your callsign, confirm the location/event filters, then start monitoring. The Manual RWT tab creates and plays a local WAV. The HTTP endpoint is opt-in and listens on all network interfaces; it serves only the latest output WAV.
 
-Run the focused tests with:
-
-```sh
-/bin/python -m unittest discover -s tests -v
-```
-
 ## Safety
 
 This project is an experimental audio tool, not a certified EAS encoder/decoder. Verify output with suitable test equipment before any operational use. No transmitter controls are implemented. Do not inject alert audio into an on-air or public-safety system without authorization and applicable approvals.
