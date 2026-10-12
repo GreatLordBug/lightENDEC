@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "same-endec"
+version = "0.1.0"
+description = "Linux desktop SAME alert monitor and audio rebroadcast tool"
+requires-python = ">=3.10"
+dependencies = [
+    "customtkinter>=5.2",
+    "numpy>=1.24",
+    "sounddevice>=0.4.6",
+    "soundfile>=0.12",
+]
+
+[project.scripts]
+same-endec = "same_endec.app:main"
+
+[tool.setuptools.packages.find]
+include = ["same_endec*"]

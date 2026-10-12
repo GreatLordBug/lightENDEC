@@ -1,0 +1,1 @@
+"""Linux desktop SAME ENDEC application."""
